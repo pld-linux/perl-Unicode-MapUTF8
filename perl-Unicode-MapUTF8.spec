@@ -48,7 +48,7 @@ Unicode::Map8, Unicode::Map i Jcode w ustandaryzowane i proste API.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
