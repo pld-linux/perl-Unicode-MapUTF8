@@ -20,7 +20,7 @@ BuildRequires:	perl-Unicode-Map
 BuildRequires:	perl-Unicode-Map8
 BuildRequires:	perl-Unicode-String
 %endif
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
