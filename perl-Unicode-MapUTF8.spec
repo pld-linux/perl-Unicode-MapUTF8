@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Unicode
-%define	pnam	MapUTF8
+%define		pdir	Unicode
+%define		pnam	MapUTF8
 Summary:	Unicode::MapUTF8 - conversions to and from arbitrary character sets and UTF8
 Summary(pl):	Unicode::MapUTF8 - konwersje miêdzy dowolnym zestawem znaków a UTF8
 Name:		perl-Unicode-MapUTF8
