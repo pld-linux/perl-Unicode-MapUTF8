@@ -10,7 +10,8 @@ Summary(pl):	Unicode::MapUTF8 - konwersje miêdzy dowolnym zestawem znaków a UTF8
 Name:		perl-Unicode-MapUTF8
 Version:	1.09
 Release:	3
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	32b2593bb38b24b5f5fef2aaf444a367
