@@ -46,7 +46,7 @@ Unicode::Map8, Unicode::Map i Jcode w ustandaryzowane i proste API.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
