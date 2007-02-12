@@ -6,7 +6,7 @@
 %define		pdir	Unicode
 %define		pnam	MapUTF8
 Summary:	Unicode::MapUTF8 - conversions to and from arbitrary character sets and UTF8
-Summary(pl):	Unicode::MapUTF8 - konwersje miêdzy dowolnym zestawem znaków a UTF8
+Summary(pl.UTF-8):   Unicode::MapUTF8 - konwersje miÄ™dzy dowolnym zestawem znakÃ³w a UTF8
 Name:		perl-Unicode-MapUTF8
 Version:	1.11
 Release:	1
@@ -36,13 +36,13 @@ UTF8 to-from other character set encoding conversions. As such, it
 wraps the Unicode::String, Unicode::Map8, Unicode::Map and Jcode
 modules in a standardized and simple API.
 
-%description -l pl
-Unicode::MapUTF8 udostêpnia warstwê po¶redni± pomiêdzy wewnêtrznymi
-funkcjami do konwersji pomiêdzy UTF8 a innymi kodowaniami. W
-szczególno¶ci jest sposobem na udostêpnienie wielu istniej±cym modu³om
-Unicode wspólnego interfejsu, dziêki czemu nie trzeba znaæ
-implementacji ka¿dego modu³u do zastosowania prostej konwersji z/do
-UTF8. Unicode::MapUTF8 opakowuje modu³y Unicode::String,
+%description -l pl.UTF-8
+Unicode::MapUTF8 udostÄ™pnia warstwÄ™ poÅ›redniÄ… pomiÄ™dzy wewnÄ™trznymi
+funkcjami do konwersji pomiÄ™dzy UTF8 a innymi kodowaniami. W
+szczegÃ³lnoÅ›ci jest sposobem na udostÄ™pnienie wielu istniejÄ…cym moduÅ‚om
+Unicode wspÃ³lnego interfejsu, dziÄ™ki czemu nie trzeba znaÄ‡
+implementacji kaÅ¼dego moduÅ‚u do zastosowania prostej konwersji z/do
+UTF8. Unicode::MapUTF8 opakowuje moduÅ‚y Unicode::String,
 Unicode::Map8, Unicode::Map i Jcode w ustandaryzowane i proste API.
 
 %prep
