@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Unicode
 %define		pnam	MapUTF8
 Summary:	Unicode::MapUTF8 - conversions to and from arbitrary character sets and UTF8
